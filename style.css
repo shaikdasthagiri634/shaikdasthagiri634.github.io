@@ -128,7 +128,7 @@ p {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%); /* Adjust this to match half the width of the content */
+        transform: translateX(-50%); 
     }
 }
 .ha, .haaa, .haaaa{
@@ -256,15 +256,25 @@ p {
     line-height: 1.6;
 }
 .contact{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 60px 20px; 
     background: linear-gradient(to right, #004e92, #000428);
-    text-align: center;
-    width: 100%;
 }
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  
 
 .input-box {
     display: flex;
