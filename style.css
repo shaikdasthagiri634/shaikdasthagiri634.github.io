@@ -261,7 +261,7 @@ p {
 .iframe-container {
   position: relative;
   width: 100%;
-  padding-bottom: 75%; /* Adjust this percentage for different aspect ratios */
+  padding-bottom: 50%; /* Adjust this percentage for different aspect ratios */
   height: 0;
   overflow: hidden;
 }
